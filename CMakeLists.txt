@@ -51,3 +51,5 @@ install(TARGETS ccd ccd_static ARCHIVE DESTINATION lib${LIB_SUFFIX}/ LIBRARY DES
 install(DIRECTORY src/ccd DESTINATION include FILES_MATCHING PATTERN "*.h")
 install(FILES "${pkg_conf_file}" DESTINATION lib${LIB_SUFFIX}/pkgconfig/ COMPONENT pkgconfig)
 
+install(FILES "${pkg_conf_file}" DESTINATION lib/pkgconfig/ COMPONENT pkgconfig RENAME libccd.pc)
+install(FILES package.xml DESTINATION share/libccd)
