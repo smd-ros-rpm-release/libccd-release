@@ -1,0 +1,12 @@
+Source: ros-groovy-libccd
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://libccd.danfis.cz/
+Standards-Version: 3.9.2
+
+Package: ros-groovy-libccd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: libccd is library for collision detection between two convex shapes.
