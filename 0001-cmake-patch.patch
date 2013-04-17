@@ -1,0 +1,22 @@
+From 6815854471a8b7121281814df6ab685751f018f2 Mon Sep 17 00:00:00 2001
+From: Ioan Sucan <isucan@willowgarage.com>
+Date: Wed, 17 Apr 2013 19:41:49 +0300
+Subject: [PATCH] cmake patch
+
+---
+ CMakeLists.txt |    2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 54cf599..a4ce71a 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -51,3 +51,5 @@ install(TARGETS ccd ccd_static ARCHIVE DESTINATION lib${LIB_SUFFIX}/ LIBRARY DES
+ install(DIRECTORY src/ccd DESTINATION include FILES_MATCHING PATTERN "*.h")
+ install(FILES "${pkg_conf_file}" DESTINATION lib${LIB_SUFFIX}/pkgconfig/ COMPONENT pkgconfig)
+ 
++install(FILES "${pkg_conf_file}" DESTINATION lib/pkgconfig/ COMPONENT pkgconfig RENAME libccd.pc)
++install(FILES package.xml DESTINATION share/libccd)
+-- 
+1.7.9.5
+
