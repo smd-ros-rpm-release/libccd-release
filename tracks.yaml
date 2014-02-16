@@ -49,7 +49,7 @@ tracks:
     devel_branch: master
     last_version: 1.5.0
     name: upstream_indigo
-    patches: groovy
+    patches: indigo
     release_inc: '0'
     release_repo_url: null
     release_tag: v1.5
