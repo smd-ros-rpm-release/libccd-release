@@ -3,7 +3,7 @@
   <version>1.5.0</version>
   <description>libccd is library for collision detection between two convex shapes.</description>
   <author email="danfis@danfis.cz">Daniel Fiser</author>
-  <maintainer email="isucan@willowgarage.com">Ioan Sucan</maintainer>
+  <maintainer email="isucan@google.com">Ioan Sucan</maintainer>
   <license>BSD</license>
 
   <url>http://libccd.danfis.cz/</url>
