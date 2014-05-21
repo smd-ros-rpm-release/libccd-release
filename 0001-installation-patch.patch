@@ -1,4 +1,4 @@
-From 51b451bc5a0245889c121728ab7a286c428708df Mon Sep 17 00:00:00 2001
+From 2b0c2e724124ef8e40f6f494e48606ca5a4124ae Mon Sep 17 00:00:00 2001
 From: Ioan Sucan <isucan@gmail.com>
 Date: Sat, 15 Feb 2014 20:30:41 -0800
 Subject: [PATCH] installation patch
@@ -18,5 +18,5 @@ index 1d2f483..d3a73ff 100644
 +install(FILES "${pkg_conf_file}" DESTINATION lib/pkgconfig/ COMPONENT pkgconfig RENAME libccd.pc)
 +install(FILES package.xml DESTINATION share/libccd)
 -- 
-1.9.0.rc1.175.g0b1dcb5
+1.9.1.423.g4596e3a
 
