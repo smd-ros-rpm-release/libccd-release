@@ -1,3 +1,24 @@
+## libccd (jade) - 2.0.0-0
+
+The packages in the `libccd` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade libccd` on `Tue, 12 May 2015 18:15:35 -0000`
+
+The `libccd` package was released.
+
+Version of package(s) in repository `libccd`:
+- upstream repository: https://github.com/danfis/libccd.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.0.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## libccd (indigo) - 1.5.0-1
 
 The packages in the `libccd` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo libccd` on `Wed, 21 May 2014 04:29:27 -0000`
