@@ -56,5 +56,5 @@ configure_file("${pkg_conf_file}.in" "${pkg_conf_file}" @ONLY)
 install(TARGETS ccd ccd_static ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
 install(DIRECTORY src/ccd DESTINATION ${CMAKE_INSTALL_INCLUDEDIR} FILES_MATCHING PATTERN "*.h")
-install(FILES "${pkg_conf_file}" DESTINATION
-  ${CMAKE_INSTALL_LIBDIR}/pkgconfig COMPONENT pkgconfig)
+install(FILES "${pkg_conf_file}" DESTINATION ${CMAKE_INSTALL_LIBDIR}/pkgconfig COMPONENT pkgconfig RENAME libccd.pc)
+install(FILES package.xml DESTINATION share/libccd)
