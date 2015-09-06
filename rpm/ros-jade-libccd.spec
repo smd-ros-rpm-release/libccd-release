@@ -32,6 +32,7 @@ mkdir -p obj-%{_target_platform} && cd obj-%{_target_platform}
         -DCMAKE_PREFIX_PATH="/opt/ros/jade" \
         -DSETUPTOOLS_DEB_LAYOUT=OFF \
         -DCATKIN_BUILD_BINARY_PACKAGE="1" \
+        -DCMAKE_INSTALL_LIBDIR="lib" \
 
 make %{?_smp_mflags}
 
